@@ -11,7 +11,6 @@ VETORORD * VETORD_create(int n, COMP * compara){
     for (int i = 0; i < n; i ++ ){ //alocando como null todas as posicoes do vetor
         vetor -> elems[i] = NULL;
     } 
-
     vetor -> comparador = compara; //ponteiro aponta para o valor desejado
     return vetor; //retorna um ponteiro com o endereço do vetor criado
 }
@@ -44,7 +43,6 @@ void * VETORD_remove(VETORORD * vetor){
     for (int i= 0; i < vetor -> P; i ++){ //iterando pelo valor
         vetor -> elems[i] = vetor -> elems[i+1]; //atualizando a posicao do vetor com os valores posteriores ao apagado
     }
-    
     vetor -> P--;
     return lixo; //retorna o ponteiro do valor removido
 }
