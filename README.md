@@ -21,7 +21,7 @@ Copie o comando abaixo e cole no seu terminal.
 	  
     cd VETOR
     
-    gcc TR3_537725.c -o vetor
+    gcc TR4_537725.c -o vetor
     
 3. Como executar:
 
